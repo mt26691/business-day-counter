@@ -41,6 +41,21 @@ To run the tests:
 npm run test
 ```
 
+## Example Usage
+
+```typescript
+import { BusinessDayCounter } from "./task-3/business-day-counter";
+import { FixedHoliday } from "./task-3/holiday-rules/fixed-holiday";
+
+const counter = new BusinessDayCounter();
+const firstDate = new Date("2023-12-20");
+const secondDate = new Date("2023-12-29");
+const holidays = [new FixedHoliday(25, 11)];
+console.log(
+  counter.BusinessDaysBetweenTwoDates(firstDate, secondDate, holidays)
+);
+```
+
 ## Approach
 
 ### Test Driven Development (TDD)
