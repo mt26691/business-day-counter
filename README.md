@@ -20,7 +20,7 @@ To set up the project:
 ## Folder Structure
 
 ```bash
-BUSINESS-DAY-COUNTER/
+business-day-counter/
 │
 ├── task-1-and-2/          # Implementation and tests for counting business days without holiday rules
 ├── task-3/                # Extended implementation with holiday rules
