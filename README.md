@@ -26,7 +26,7 @@ BUSINESS-DAY-COUNTER/
 ├── task-3/                # Extended implementation with holiday rules
 │   ├── holiday-rules/     # Different types of holiday rules (fixed, shifted, occurrence)
 ├── .gitignore
-├── jest.config.js         # Jest configuration file for running tests
+├── jest.config.js
 ├── package-lock.json
 ├── package.json
 ├── README.md
