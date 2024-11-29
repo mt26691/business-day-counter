@@ -25,12 +25,12 @@ BUSINESS-DAY-COUNTER/
 ├── task-1-and-2/          # Implementation and tests for counting business days without holiday rules
 ├── task-3/                # Extended implementation with holiday rules
 │   ├── holiday-rules/     # Different types of holiday rules (fixed, shifted, occurrence)
-├── .gitignore             # List of files/folders to be ignored by Git
+├── .gitignore
 ├── jest.config.js         # Jest configuration file for running tests
-├── package-lock.json      # Lock file for installed npm packages
-├── package.json           # Project dependencies, scripts, and configuration
-├── README.md              # Project documentation
-└── tsconfig.json          # TypeScript compiler options
+├── package-lock.json
+├── package.json
+├── README.md
+└── tsconfig.json
 ```
 
 ## Running Tests
