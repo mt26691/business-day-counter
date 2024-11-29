@@ -17,8 +17,8 @@ describe("ShiftedHoliday", () => {
 
   it("should return true if the holiday falls on a Sunday and is observed on the following Monday", () => {
     const holiday = new ShiftedHoliday(1, 4); // May 1st
-    const holidayDate = new Date(2023, 4, 1); // May 1, 2023 (Sunday)
-    const observedHolidayDate = addDays(holidayDate, 1); // Observed on May 2, 2023 (Monday)
+    const holidayDate = new Date(2022, 4, 1); // May 1, 2022 (Sunday)
+    const observedHolidayDate = addDays(holidayDate, 1); // Observed on May 2, 2022 (Monday)
     expect(holiday.isHoliday(observedHolidayDate)).toBe(true);
   });
 
