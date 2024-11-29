@@ -64,7 +64,7 @@ The project uses a Test Driven Development (TDD) approach. TDD helps ensure that
 
 ### Why date-fns?
 
-We used the date-fns library because it is a well-maintained and highly reliable library for handling date operations in JavaScript and TypeScript. Using a well-supported library helps us avoid reinventing the wheel and over-engineering our solution. It also makes the code more readable and maintainable, while taking advantage of community-tested solutions for handling date manipulations.
+We used the [date-fns](https://www.npmjs.com/package/date-fns) library because it is a well-maintained and highly reliable library for handling date operations in JavaScript and TypeScript. Using a well-supported library helps us avoid reinventing the wheel and over-engineering our solution. It also makes the code more readable and maintainable, while taking advantage of community-tested solutions for handling date manipulations.
 
 ## Task 3 Explanation
 
