@@ -48,12 +48,12 @@ import { BusinessDayCounter } from "./task-3/business-day-counter";
 import { FixedHoliday } from "./task-3/holiday-rules/fixed-holiday";
 
 const counter = new BusinessDayCounter();
-const firstDate = new Date("2023-12-20");
-const secondDate = new Date("2023-12-29");
-const holidays = [new FixedHoliday(25, 11)];
+const firstDate = new Date("2023-12-20"); // Wednesday
+const secondDate = new Date("2023-12-29"); // Friday
+const holidays = [new FixedHoliday(25, 11)]; // December 25th
 console.log(
   counter.BusinessDaysBetweenTwoDates(firstDate, secondDate, holidays)
-);
+); // 5 is printed
 ```
 
 ## Approach
